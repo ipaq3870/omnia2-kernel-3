@@ -60,12 +60,13 @@ obj-$(CONFIG_MACH_SMARTQ)	+= mach-smartq.o
 obj-$(CONFIG_MACH_SMARTQ5)	+= mach-smartq5.o
 obj-$(CONFIG_MACH_SMARTQ7)	+= mach-smartq7.o
 obj-$(CONFIG_MACH_GT_I5700)	+= mach-gt_i5700.o spica_bt.o
+obj-$(CONFIG_MACH_OMNIA_II)	+= omnia_II.o
 
 # device support
 
 obj-y				+= dev-uart.o
 obj-y				+= dev-audio.o
-obj-$(CONFIG_S3C64XX_DEV_SPI)	+= dev-spi.o
-obj-$(CONFIG_S3C64XX_DEV_TS)	+= dev-ts.o
+obj-$(CONFIG_SPI_S3C64XX)	+= dev-spi.o
+obj-$(CONFIG_S3C64XX_DEV_TS)    += dev-ts.o
 obj-$(CONFIG_S3C64XX_DEV_ONENAND1)	+= dev-onenand1.o
 obj-$(CONFIG_SAMSUNG_PD)	+= dev-pd.o

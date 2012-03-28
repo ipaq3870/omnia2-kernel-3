@@ -10,6 +10,8 @@
  * published by the Free Software Foundation.
 */
 
+#include <linux/delay.h>
+
 #include <plat/regs-watchdog.h>
 #include <mach/map.h>
 

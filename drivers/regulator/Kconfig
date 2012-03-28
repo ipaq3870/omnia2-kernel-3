@@ -310,5 +310,13 @@ config REGULATOR_TPS65910
 	help
 	  This driver supports TPS65910 voltage regulator chips.
 
+config PMIC_MAX8698
+	tristate "Maxim MAX8698 Power Management chip (Old Driver)"
+	help
+	  If you say yes here you get support fot the Maxim MAX8698
+	  Power Management chip.
+	  This provides Applocations and Baseband Processor Power Management,
+	  ADC/TSC, RTC, and Audio Subsystem for Mobile Applications.
+
 endif
 
